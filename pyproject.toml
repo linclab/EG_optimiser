@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["optim_eg"]
+
+[project]
+name = "optim_eg"
+version = "0.1.0"
+description = "Exponentiated gradient with SGD and AdamW from PyTorch"
+requires-python = ">= 3.9"
+dependencies = ["torch>=2.0.0"]

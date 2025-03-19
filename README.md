@@ -1,9 +1,15 @@
 # EG_optimiser
-Pytorch optimiser for training ANNs with exponentiated gradient desent
+PyTorch optimiser for training ANNs with exponentiated gradient descent
 
+## Installation
 
+```
+pip install -e .
+```
+
+## Reference
 If you find this code useful, please cite our paper!
-https://www.biorxiv.org/content/10.1101/2024.10.25.620272v1.article-metrics
+https://www.biorxiv.org/content/10.1101/2024.10.25.620272v1
 
 ```
 @article {Cornford2024.10.25.620272,
