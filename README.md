@@ -1,9 +1,17 @@
 # EG_optimiser
-Pytorch optimiser for training ANNs with exponentiated gradient desent
+A fork of SGD and AdamW from PyTorch that implements exponentiated gradient descent (EG [Kivinen and Warmuth, 1997])
+used in our paper "Brain-like learning with exponentiated gradients".
 
+## Installation
+```
+git clone https://github.com/linclab/EG_optimiser.git
+cd EG_optimiser
+pip install -e .
+```
 
+## Reference
 If you find this code useful, please cite our paper!
-https://www.biorxiv.org/content/10.1101/2024.10.25.620272v1.article-metrics
+https://www.biorxiv.org/content/10.1101/2024.10.25.620272v1
 
 ```
 @article {Cornford2024.10.25.620272,
