@@ -1,4 +1,20 @@
-MIT License
+# Licensing Notice
+
+This repository contains modified code from PyTorch alongside new contributions. Each part follows its respective license:
+
+1. Modified PyTorch Code  
+
+Portions of this repository are derived from PyTorch and remain under its original license. The full PyTorch license can be found in the `LICENSE-pytorch` file.
+
+2. New Contributions
+
+All modifications and new contributions in this repository are licensed under the MIT License below.
+
+By using this repository, you agree to comply with both licenses where applicable.
+
+---
+
+MIT License (our contributions)
 
 Copyright (c) 2024 LiNC Lab
 
