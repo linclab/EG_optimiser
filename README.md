@@ -6,7 +6,7 @@ used in our paper "Brain-like learning with exponentiated gradients".
 ```
 git clone https://github.com/linclab/EG_optimiser.git
 cd EG_optimiser
-!pip install -e . --no-deps # use --no-deps if pytorch is already installed (e.g. in Colab)
+pip install -e . --no-deps # use --no-deps if pytorch is already installed (e.g. in Colab)
 ```
 
 ## Usage
