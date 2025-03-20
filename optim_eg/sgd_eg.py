@@ -1,12 +1,3 @@
-# Optimizers from
-# Brain-like learning with exponentiated gradients
-# https://www.biorxiv.org/content/10.1101/2024.10.25.620272v1
-# J. Cornford*, R. Pogodin*, A. Ghosh, K. Sheng, B.A Bicknell, O. Codol, B. Clark, G. Lajoie, B.A. Richards
-
-# This code is a modification of SGD and AdamW from Pytorch 2.0.1,
-# adding exponentiated gradient (EG) and EG-compatible weight decay
-# SGD take a new argument 'update_alg' that can be 'eg' or 'gd' (gd = regular SGD),
-# AdamW is modified into a separate class AdamWEG for EG
 import torch
 from torch import Tensor
 from torch.optim.optimizer import (Optimizer, required)
